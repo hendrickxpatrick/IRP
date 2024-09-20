@@ -44,44 +44,42 @@ Dit draaiboek beschrijft de stappen die moeten worden genomen wanneer accounts z
     - Identificeer en verkrijg de diensten van een derde partij Cyber Forensic provider.
 - Definieer dreigings- en risicofactoren en waarschuwingspatronen binnen de beveiligingsinformatie- en gebeurtenisbeheer (SIEM) oplossing van de organisatie.
 
-### Train Employees
-- Conduct regular awareness campaigns to highlight information security risks faced by employees, including: 
-    - Phishing attacks and malicious emails;
+### Train Medewerkers
+- Voer regelmatig bewustwordingscampagnes uit om de informatiebeveiligingsrisico's voor medewerkers te benadrukken, waaronder:
+    - Phishing-aanvallen en kwaadaardige e-mails;
     - Ransomware;
-    - Reporting a suspected cyber incident.
+    - Het melden van een vermoedelijk cyberincident.
+### Toegang tot en voorziening van tools
 
-### Tool Access and Provisioning
+### Tool1
+(../Products/TOOL.md)
 
-#### Tool1
-Please referer to [Tool1 Documentation](../Products/TOOL.md)
+### Tool2
+(../Products/TOOL.md)
 
-#### Tool2
-Please referer to [Tool2 Documentation](../Products/TOOL.md)
-
-### Assets List
-- A list of assets and owner should exists and be available for the following
-    - Customers Assets
-        - Owners
-        - Contacts
-        - Pre authorized actions
-    - Company Assets (Including all filiale and business units)
-        - Onwers
-        - Contacts
-        - Administrators
-        - Pre autorized actions
-- Type of assets inventory needed
-    - Endpoints
+### Lijst van activa
+- Er moet een lijst van activa en eigenaren bestaan en beschikbaar zijn voor de volgende:
+    - Klantenactiva
+    - Eigenaren
+    - Contacten
+    - Vooraf geautoriseerde acties
+- Bedrijfsactiva (inclusief alle filialen en bedrijfseenheden)
+    - Eigenaren
+    - Contacten
+    - Beheerders
+- Vooraf geautoriseerde acties
+    - Type activa-inventaris die nodig is:
+    - Eindpunten
     - Servers
-    - Network Equipements
-    - Security Appliances
-    - Network Ranges
-        - Public
-        - Private
+    - Netwerkapparatuur
+    - Beveiligingsapparaten
+    - Netwerkbereiken
+        - Publiek
+        - Privé
         - VPN / Out of Band
-            - Employees
+            - Medewerkers
             - Partners
-            - Clients
-
+            - Klanten
 </details>
 
 ## 2. Detect
