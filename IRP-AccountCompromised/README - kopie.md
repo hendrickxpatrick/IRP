@@ -27,23 +27,22 @@ Dit draaiboek beschrijft de stappen die moeten worden genomen wanneer accounts z
         - WMI
         - MSHTA
         - Etc.
-- Perform Firedrill to ensure all aspects of the Playbook are working
-    - After publication
-    - At least once a year
-    - Test/Validate: 
-        - [Customer's Cards](Customers)
-        - Internal Contact and Escalation Paths
-- Review threat intelligence for 
-    - threats to the organisation, 
-    - brands and the sector, 
-    - common patterns 
-    - newly developing risks and vulnerabilities
-- Ensure  appropriate  access  to  any  necessary  documentation  and  information, including out-of-hours access, for the following
-    - IR Playbooks
-    - Network Architecture Diagram
-    - Dataflow
-- Identify and obtain the services of a 3rd party Cyber Forensic provider.
-- Define Threat and Risk Indicators and Alerting pattern within the organisation’ssecurity informationand event management (SIEM) solution.
+- Voer een oefening uit om ervoor te zorgen dat alle aspecten van het draaiboek werken:
+    - Na publicatie.
+    - Minstens één keer per jaar.
+    - Test/Valideer:
+        - Interne contact- en escalatiepaden.
+- Beoordeel dreigingsinformatie voor:
+    - bedreigingen voor de organisatie,
+    - merken en de sector,
+    - gemeenschappelijke patronen,
+    - nieuw ontwikkelende risico's en kwetsbaarheden.
+- Zorg voor de juiste toegang tot alle benodigde documentatie en informatie, inclusief toegang buiten kantooruren, voor de volgende:
+    - IR Draaiboeken.
+    - Netwerkarchitectuurdiagram.
+    - Gegevensstroom.
+    - Identificeer en verkrijg de diensten van een derde partij Cyber Forensic provider.
+- Definieer dreigings- en risicofactoren en waarschuwingspatronen binnen de beveiligingsinformatie- en gebeurtenisbeheer (SIEM) oplossing van de organisatie.
 
 ### Train Employees
 - Conduct regular awareness campaigns to highlight information security risks faced by employees, including: 
