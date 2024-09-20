@@ -3,25 +3,26 @@
 [[_TOC_]]
 
 ## Scope
-Dit draaiboek beschrijft de stappen die moeten worden genomen wanneer accounts zijn gecompromitteerd. Natuurlijk moeten we ook de hosts waar deze accounts zijn gebruikt, herstellen. 
+This Playbook covers the steps to take when accounts are compromised.  
+Of course, we also need to remediate the hosts where those accounts were used. 
 
-## 1. Voorbereiding
+## 1. Preparation
 
 <details>
 <summary>Expand/Colapse</summary>
 
-- Maak en onderhoud een lijst van:
-    - alle domeinen die eigendom zijn van het bedrijf.
-        - Dit kan voorkomen dat je acties onderneemt tegen onze eigen domeinen.
-    - alle mensen die domeinen kunnen registreren.
-- Maak e-mailsjablonen:
-    - om alle medewerkers te informeren over lopende phishingcampagnes tegen de organisatie.
-    - om hostingbedrijven te contacteren voor het neerhalen van domein(en).
-    - om derden te informeren om actie te ondernemen tegen phishing op hun infrastructuur (Microsoft, Fedex, Apple, enz.).
-- Zorg ervoor dat:
-    - Mail anti-malware/anti-spam/anti-phish oplossingen aanwezig zijn.
-    - Gebruikers weten hoe ze phishing kunnen melden.
-    - Detectie bestaat voor Office-documenten die processen starten.
+- Create and maintain a list of 
+    - all domains owned by Company.
+        - This can prevent you from taking actions against our own domains
+    - all people of can register domains
+- Create email templates 
+    - to notify all employees of ongoing phishing campaing against the organization 
+    - to contact hosting companies for domain(s) take down
+    - to inform 3rd party to take actions against phishing on there infra (Microsoft, Fedex, Apple, etc.)
+- Ensure that:
+    - Mail anti-malware/anti-spam/anti-phish solutions are in place.
+    - Users know how to report phish
+    - Detection exists for office documents spawning processes
         - PowerShell
         - CMD
         - WMI
