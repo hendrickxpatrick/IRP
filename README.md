@@ -2,129 +2,94 @@
 [[_TOC_]]
 
 # IR Playbooks
-This repository contains all the Incident Response Playbooks and Workflows of Company's SOC.
+Dit repository bevat alle Incident Response Playbooks en Workflows van het SOC van het bedrijf.
 
-Each folder contains a Playbook that is broken down into 6 section as per [NIST - 800.61 r2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf)
+Elke map bevat een Playbook dat is onderverdeeld in 6 secties volgens [NIST - 800.61 r2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf)
 
-## 1- Preparation
-This section should include the following informations
-- List of _ALL_ Assets
-  - Servers
-  - Endpoints (+critical ones)
-  - Networks
-  - Applications
-  - Employees
-  - Security Products
+## 1- Voorbereiding
+
+Deze sectie moet de volgende informatie bevatten:
+- Lijst van ALLE activa
+- Servers
+- Eindpunten (+kritieke)
+- Netwerken
+- Applicaties
+- Werknemers
+- Beveiligingsproducten
 - Baselines
-- Communication Plan
-- Which Security Events
-- Thresholds
-- How to access Security Tools
-  - How to provision access
-- Create Playbooks
-- Plan Exercises
-  - Table Top
-  - Hands On
+- Communicatieplan
+- Welke beveiligingsevenementen
+- Drempels
+- Hoe toegang te krijgen tot beveiligingstools
+- Hoe toegang te verlenen
+- Playbooks maken
+- Oefeningen plannen
+- Table Top
+- Hands On
 
 ## 2- Detection and Analysis
-This section should include the following informations
-- Gathering of Information
-- Analyzing the Data
-- Building Detections
-- Root Cause Analysis
-- Depth and Breath of the Attack
-  - Admin Rights
-  - Affected Systems
-- Techniques Used
-- Indicators of Compromise / Indicators of Attack
-  - Tactics Techniques and Procdures (TTP)
-  - IP Address
-  - Email Address
-  - File Hash
-  - Command Line
-  - etc.
-  
-## 3- Containment, Eradication, and Recovery
-This section should include the following informations
-- Isolate Affected Systems
+Deze sectie moet de volgende informatie bevatten:
+- Geïsoleerde getroffen systemen
 - Patch Threat Entry Point
-- Predefine threshold
-  - For Customers
-  - For internal systems
-  - For escalations
-- Preauthorized actions
-  - Per customers
-  - Per environment
-    - Prod
-    - QA
-    - Internet Facing
-- How to Remove the Threat on All Affected Systems
-- Get Systems Operational
-- Rebuilt and Resume Service
+- Vooraf gedefinieerde drempel
+- Voor klanten
+- Voor interne systemen
+- Voor escalaties
+- Vooraf geautoriseerde acties
+- Per klanten
+- Per omgeving
+- Prod
+- QA
+- Internet Facing
+- Hoe de dreiging op alle getroffen systemen te verwijderen
+- Systemen operationeel krijgen
+- Herbouwen en hervatten van de service
+  
+## 3- Containment, Eradication, en Herstel
+Deze sectie moet de volgende informatie bevatten:
+- Geïsoleerde getroffen systemen
+- Patch Threat Entry Point
+- Vooraf gedefinieerde drempel
+- Voor klanten
+- Voor interne systemen
+- Voor escalaties
+- Vooraf geautoriseerde acties
+- Per klanten
+- Per omgeving
+- Prod
+- QA
+- Internet Facing
+- Hoe de dreiging op alle getroffen systemen te verwijderen
+- Systemen operationeel krijgen
+- Herbouwen en hervatten van de service
 
-## 4- Post-Incident Activity
-- Lessons Learn
-- New Detection
-- New Hardening
-- New Patch Management
-- etc.
+## 4- Post-Incident Activiteit
+- Lessen geleerd
+- Nieuwe detectie
+- Nieuwe verharding
+- Nieuw patchbeheer
+- enz.
  
-# Directory Structures
-## Customers
-This folder includes all the informations related to our customers such as
+# Directory Structuren
+## Klanten
+- Contacten
+    - Namen
+    - Telefoonnummer
+    - E-mail
+- Escalatiepunt
+    - Kantooruren
+    - Buiten kantooruren
+- Accountmanager
+- Vooraf goedgekeurde acties en drempel
+- Blackout / Brownout schema
 
-- Contacts
-  - Names
-  - Phone Number
-  - Email
-- Escalation point
-  - Business hours
-  - Off Hours
-- Account Manager
-- Pre-approved Actions and Threshold
-- Blackout / Brownout schedule
+## Producten
+Deze map bevat informatie over de verschillende "commerciële" producten die we gebruiken tijdens een incident. Bijvoorbeeld:
 
-## Products
-This folder contains information about the various "commercial" products we use during an incident.
-For example:
 - JIRA
-- Remedy 
-- Service-Now
-- ArcSight
-- Elastic Stack
-- RSA NetWitness
-- Splunk
-- AMP
-- CrowdStrike
-- McAfee
 - Microsoft ATP
-- Symantec
-- Firepower
 - Fortigate
-- Etc.
+- enz.
 
 ## IRP-*
-These are the individual folders containing the Playbooks themselves
-Within each directory there should be a PDF folder where a PDF version is available (and auto generated) for auditors and customers who requiere to see them
-
-# Create a new Playbook
-
-## Folder & Files
-To create a new Playbook:  
-- Create a new folder ex: `IRP-DDoS`
-- Create a file called `README.md` inside your new folder
-- Paste the content of `IRP-TEMPLATE.md`
-- Replace the string `-NAME-` for your playbook name ex: `DDoS` in all the document
-- Edit the sections.
-
-## Workflows
-To create the Workflows
-- Inside your new folder create a folder called `Workflows`
-- Open the file `WORKFLOW-TEMPLATE.drawio` in [Draw.io](https://app.diagrams.net)
-- Save locally until you have completed all the tabs
-- Once all the tabs/phases are completed, upload a copy to your new `Workflows` folder
-- Use the `File -> Export as -> PNG` function of Draw.io to save each diagram phase separatly 
-    - Make sure you Unchecked `Include a copy of the diagram`
-    - Click `Export`
-    - Save locally
-- Upload each .PNG file to your new `Workflows` folder
+Dit zijn de individuele mappen die de Playbooks zelf bevatten. Binnen elke directory moet er een PDF-map zijn waar een PDF-versie beschikbaar is (en automatisch gegenereerd) voor auditors en klanten die deze willen zien.
