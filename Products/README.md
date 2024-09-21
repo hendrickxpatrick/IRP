@@ -1,1 +1,1 @@
-This folder contains all the information about our product and how to use them
+Deze folter toont alle producten die we hebben

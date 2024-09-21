@@ -137,7 +137,7 @@ Meldingen komen van externe bronnen, meestal via e-mail, Teams of telefoon. De b
 </details>
 
 ### Data Colletion
-Deze sectie beschrijft de informatie die moet worden verzameld en gedocumenteerd over het incident. Er zijn veel bronnen om je te helpen met die fase Er is een externe koppeling verwijderd om uw privacy te beschermen..[here](../Tools/README.md)
+Deze sectie beschrijft de informatie die moet worden verzameld en gedocumenteerd over het incident. Er zijn veel bronnen om je te helpen met die fase [here](../Tools/README.md)
 <details open>
 <summary>Expand/Colapse</summary>
 Domeinen
@@ -147,9 +147,8 @@ Domeinen
 - IP
 - Meerstaps / Doorverwijzing
 - Technologieën van de site 
-- WordPress
-- Joomla
-- Aangepaste pagina (inloggegevens phish)
+- Drupal
+- Aangepaste pagina (inloggegevens phished)
 
 IP
 - Reputatie
