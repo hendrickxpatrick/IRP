@@ -27,7 +27,7 @@ Deze sectie moet de volgende informatie bevatten:
 - Table Top
 - Hands On
 
-## 2- Detection and Analysis
+## 2- Detectie en Analyse
 Deze sectie moet de volgende informatie bevatten:
 - Geïsoleerde getroffen systemen
 - Patch Threat Entry Point
@@ -45,7 +45,7 @@ Deze sectie moet de volgende informatie bevatten:
 - Systemen operationeel krijgen
 - Herbouwen en hervatten van de service
   
-## 3- Containment, Eradication, en Herstel
+## 3- Containment, Eradication en Herstel
 Deze sectie moet de volgende informatie bevatten:
 - Geïsoleerde getroffen systemen
 - Patch Threat Entry Point
