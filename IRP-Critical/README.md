@@ -10,93 +10,85 @@ Het feit dat het incident kritiek is, betekent niet dat het Playbook kan/moet wo
 ![Critical Incident Workflow](Workflow/Critical-Incident.png)
 </details>
 
-## CI1 - Build a Crisis Management Cell
+## CI1 - Bouw een Crisis Management Cel
 <details open>
 <summary>Expand/Colapse</summary>
 
-The SOC Manager and Director will
-- Appoint an Incident Commander and a backup
-    - Responsable to call the shots
-    - Ensuring the Playbooks are followed
-        - No steps are forgotten
-        - Steps are taken in the right order
-            - This doesn't mean many steps cannot be taken simultaniously
-        - Chain of Custody is maintain
-    - There's always someone taking notes
-    - Key person to gather all information
-    - Can autorize actions
-        - Disconnect MPLS
-        - Shutdown services/computer
-    - Can autorize spending
-        - Equipement
+De SOC Manager en CEO zullen:
+- Een Incident Commander en een backup aanstellen
+    - Verantwoordelijk om de beslissingen te nemen
+    - Zorgen dat de Playbooks worden gevolgd
+        - Geen stappen worden vergeten
+        - Stappen worden in de juiste volgorde genomen
+            - Dit betekent niet dat veel stappen niet gelijktijdig kunnen worden genomen
+        - De keten van bewaring wordt gehandhaafd
+    - Er is altijd iemand die aantekeningen maakt
+    - Sleutelfiguur om alle informatie te verzamelen
+    - Kan acties autoriseren
+        - MPLS loskoppelen
+        - Diensten/computer uitschakelen
+    - Kan uitgaven autoriseren
+        - Apparatuur
         - VM
             - GCP
-            - AWS
-            - Digital Ocean
-        -  Software 
-- Appoint an "minute taker" and a backup
-- Create 
+            - AZURE
+    - Software
+- Een "notulist" en een backup aanstellen
+- Creëer
     - Alpha Team
     - Beta Team
     - Charlie Team
-- Establish communication schedule
+- Communicatieschema opstellen
     - Stream Report
-    - C Level communication
-    - etc.
-
-The goal of these teams is to 
-- Have people around the clock working on the incident
-- Allow people to rest
-- Have period of time for pass over
-    - At least 1 hour (2 prefered)
-    - Both Teams are working togther 
-    - All updates are given
-
-Each of the teams need to 
-- Have Stream Leads
+    - C Level communicatie
+    - enz.
+Het doel van deze teams is om:
+- Mensen 24/7 aan het incident te laten werken
+- Mensen de kans te geven om te rusten
+- Tijd te hebben voor overdracht
+    - Minstens 1 uur (2 voorkeur)
+    - Beide teams werken samen
+    - Alle updates worden gegeven
+Elk van de teams moet:
+- Stream Leads hebben
     - Log review Stream
-        - Depth and Breath of the attack
-    - Vulnerability Assement
-        - To try and identify root cause
-        - See if any other systems have the same Vulnerability
-    - Forensics Stream
-        - Understand what happend on the host(s)
-        - Malware analysis
-        - Identify IOC
-        - Feed the Log Stream
-    - Host Stream
-        - Deploy security solution
-        - Update security solution
-        - Build new server
-        - Install apps
-        - Restore data
-        - etc.
-    - Dark Web / Social Media monitoring Stream (optional)
-        - Is there any chatter about the breach
-        - Is the data for sale
-        - Is the data posted somewhere
+        - Diepte en breedte van de aanval
+- Kwetsbaarheidsbeoordeling
+    - Proberen de oorzaak te achterhalen
+    - Kijken of andere systemen dezelfde kwetsbaarheid hebben
+- Forensische Stream
+    - Begrijpen wat er op de host(s) is gebeurd
+    - Malware-analyse
+    - IOC identificeren
+    - De Log Stream voeden
+- Host Stream
+    - Beveiligingsoplossing implementeren
+    - Beveiligingsoplossing bijwerken
+    - Nieuwe server bouwen
+    - Apps installeren
+    - Gegevens herstellen
+    - enz.
+- Dark Web / Social Media monitoring Stream (optioneel)
+    - Is er enige discussie over de inbreuk
+    - Worden de gegevens te koop aangeboden
+    - Zijn de gegevens ergens gepost
 
 </details>
 
-## CI2 - Food & Drink Supply
-If working from the office we need to know how we will feed our staff.  
-Someone will need to have a list of restaurants that deliver 24/7 to our locations.  
-We don't want our team to eat fried chicken or pizza 3 times a day.
+## CI2 - Voedsel- en drankvoorziening
+Als je vanuit kantoor werkt, moeten we weten hoe we ons personeel zullen voeden. Iemand moet een lijst hebben van restaurants die 24/7 naar onze locaties bezorgen. We willen niet dat ons team drie keer per dag gefrituurde kip of pizza eet.
 
-## CI3 - Define Communication Schedule
-During a critical incident information sharing is critical.  
-We need to ensure everyone knows where and when to report information. 
+## CI3 - Communicatieschema definiëren
+Tijdens een kritiek incident is het delen van informatie cruciaal. We moeten ervoor zorgen dat iedereen weet waar en wanneer informatie moet worden gerapporteerd.
+Definieer het volgende:
+- Wie zal elke oproep bijwonen
+- Welk platform zal worden gebruikt om te communiceren
+- Technische oproep om informatie tussen de Streams te synchroniseren
+- C-Level informatie oproep
+- Klanteninformatie oproep
 
-Define the following
-- Who will attend each calls
-- What platform will be used to communicate
-- Technical call to sync information between the Streams
-- C-Level information call
-- Customers information call
+## CI4 - Terug naar het Playbook
+Zodra de rollen en teams zijn gevormd, stuur het team dat het overneemt weg zodat ze kunnen rusten en klaar zijn om het over te nemen. Keer ten slotte terug naar de oorspronkelijke Playbook(s).
 
-## CI4 - Return to the Playbook
-Once the roles and teams have been formed, send the team that will take over away so they can rest and be ready to take over.  
-Finally return to the original(s) Playbook(s)
-
-Good luck!
+Veel succes!
  
