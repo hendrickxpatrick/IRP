@@ -296,7 +296,7 @@ Ga naar de volgende fase <Contain/Eradicate>
 <details open>
 <summary>Expand/Colapse</summary>
 
-Als er kwaadaardige bijlagen waren die werden geopend, moeten we aannemen dat de eindpunten zijn geïnfecteerd door malware. [Malware Playbook](../IRP-Malware/README.md)  
+Als er kwaadaardige bijlagen waren die werden geopend, moeten we aannemen dat de eindpunten zijn geïnfecteerd door malware. [Malware Playbook](../Malware/README.md)  
 
 </details>
 
