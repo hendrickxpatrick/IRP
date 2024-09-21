@@ -1,8 +1,7 @@
 # Critical Incident Playbook
-Here are the steps to take when an incident is deemed critical.   
-The fact that the incident is critical doesn't mean the Playbook can/should be ignored. It just means that every steps needs to occur faster, that more people will be working on the incident and that an Incident Commander will be appointed. 
+Hier zijn de stappen die moeten worden genomen wanneer een incident als kritiek wordt beschouwd.
+Het feit dat het incident kritiek is, betekent niet dat het Playbook kan/moet worden genegeerd. Het betekent alleen dat elke stap sneller moet plaatsvinden, dat meer mensen aan het incident zullen werken en dat er een Incident Commander zal worden aangesteld. 
 
-[[_TOC_]]
 
 ## Workflow
 <details open>
