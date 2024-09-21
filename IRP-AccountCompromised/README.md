@@ -1,7 +1,5 @@
 # Account Compromised Playbook
 
-[[_TOC_]]
-
 ## Scope
 Dit draaiboek beschrijft de stappen die moeten worden genomen wanneer accounts zijn gecompromitteerd. Natuurlijk moeten we ook de hosts waar deze accounts zijn gebruikt, herstellen. 
 
@@ -165,7 +163,7 @@ IP
 <details open>
 <summary>Expand/Colapse</summary>
 
-Determine type of 
+Bepaal het type
 
 
 </details>
@@ -185,7 +183,7 @@ Bepaal
 </details>
 </details>
 
-## 3. Analyze
+## 3. Analyse
 <details open>
 <summary>Expand/Colapse</summary>
 
@@ -197,34 +195,34 @@ Bepaal
 
 </details>
 
-### AA1. Verify
+### AA1. Verifiëren
 <details open>
 <summary>Expand/Colapse</summary>
 
-In conjonction with a senior member of the SOC  
-- Double check previous data
-- Rule out False Positive
+In samenwerking met een senior lid van het SOC
+- Dubbelcheck eerdere gegevens
+- Sluit valse positieven uit
 
 </details>
 
-### AA2. List Compromised Credentials
+### AA2. Lijst van Gecompromitteerde Inloggegevens
 <details open>
 <summary>Expand/Colapse</summary>
 
-In the Compromised Assets TAB of the Event Log list:   
-- Compromised accounts
-- Compromised machines
-- Compromised domains
+In het tabblad Gecompromitteerde Activa van het logboek van gebeurtenissen:
+- Gecompromitteerde accounts
+- Gecompromitteerde machines
+- Gecompromitteerde domeinen
 
 </details>
 
-### AA3. Level of Access / Priviledges
+### AA3. Niveau van Toegang / Privileges
 <details open>
 <summary>Expand/Colapse</summary>
 
-In conjonction with a senior member of the SOC  
-- Double check previous data
-- Rule out False Positive
+In samenwerking met een senior lid van het SOC
+- Dubbelcheck eerdere gegevens
+- Sluit valse positieven uit
 
 </details>
 
@@ -232,10 +230,10 @@ In conjonction with a senior member of the SOC
 <details open>
 <summary>Expand/Colapse</summary>
 
-- Update lists of
-    - affected endpoints
-    - affected Company Entities
-    - affected clients
+- Update lijsten van
+    - getroffen eindpunten
+    - getroffen bedrijfsentiteiten
+    - getroffen klanten
 
 </details>
 
@@ -243,21 +241,19 @@ In conjonction with a senior member of the SOC
 <details open>
 <summary>Expand/Colapse</summary>
 
-Have all the machines been identified? 
-If you find futher traces of phishing or new IOCs go back through this step.  
+Zijn alle machines geïdentificeerd? Als je verdere sporen van phishing of nieuwe IOC's vindt, ga dan terug naar deze stap.
 
-When you are done identifying all compromised:  
+Wanneer je klaar bent met het identificeren van alle gecompromitteerde:
 - Hosts
 
-And investigated all:  
-- URLs
-- Domains
+En alle hebt onderzocht:
+- URL's
+- Domeinen
 - IP
-- Ports
-- Files
+- Poorten
+- Bestanden
 - Hash
-
-Go to the next phase <Contain/Eradicate>
+Ga naar de volgende fase <Contain/Eradicate>
 
 </details>
 
@@ -280,16 +276,16 @@ Go to the next phase <Contain/Eradicate>
 <details open>
 <summary>Expand/Colapse</summary>
 
-- Update FW, Proxy, etc. rules
+- Update FW, Proxy, etc. regels
 - Blackhole DNS
-- Submit to Partners
-    - AV/EDR Vendor
-    - Web Filter Vendor
+- Indienen bij Partners
+    - AV/EDR Leverancier
+    - Webfilter Leverancier
     - etc.
 
 </details>
 
-### Validate User's Actions
+### Gebruikersacties Valideren
 <details open>
 <summary>Expand/Colapse</summary>
 
@@ -297,45 +293,42 @@ Go to the next phase <Contain/Eradicate>
 
 </details>
 
-### Malware Infection?
+### Malware Infectie?
 <details open>
 <summary>Expand/Colapse</summary>
 
-If there was malicious attachments that were openned we need to assume the endpoint(s) was/were infected by a malware.  
-Please continue to the [Malware Playbook](../IRP-Malware/README.md)  
+Als er kwaadaardige bijlagen waren die werden geopend, moeten we aannemen dat de eindpunten zijn geïnfecteerd door malware. [Malware Playbook](../IRP-Malware/README.md)  
 
 </details>
 
-
-### Close Monitoring
+### Nauwlettend Toezicht
 <details open>
 <summary>Expand/Colapse</summary>
 
-- Monitor for 
-    - Related incoming messages
-    - Internet connections to IOC
-    - New files that matches hashes identified
+- Monitor voor
+    - Gerelateerde inkomende berichten
+    - Internetverbindingen naar IOC
+    - Nieuwe bestanden die overeenkomen met geïdentificeerde hashes
 
 </details>
 
-
-### All Affected Endpoints Contained?
+### Zijn alle Endpoints Contained?
 <details open>
 <summary>Expand/Colapse</summary>
 
-If all affected endpoints have been contained, you can go to the next phase, otherwise continue bellow.  
+Als alle getroffen eindpunten zijn bevat, kun je naar de volgende fase gaan, anders ga je hieronder verder. 
 
 </details>
 
-### New IOC Discovered?
+### Nieuwe IOC Ontdekt?
 <details open>
 <summary>Expand/Colapse</summary>
 
-If there was new IOC discovered, go back to the [Analyze Phase](README.md#3-analyze)
+Als er een nieuwe IOC is ontdekt, ga dan terug naar de [Analyze Phase](README.md#3-analyze)
 </details>
 </details>
 
-## 5. Recover
+## 5. Herstellen
 <details open>
 <summary>Expand/Colapse</summary>
 
@@ -352,20 +345,18 @@ If there was new IOC discovered, go back to the [Analyze Phase](README.md#3-anal
 <summary>Expand/Colapse</summary>
 
 Determine which of the following rules needs to be removed and which needs to stay in the following list:  
-- Firewall Rules
-- EDR 
-    - ban hashes
-    - ban domains
-    - Containment
-- Proxy Block
-
+- Firewall Regels
+- EDR
+    - hashes verbannen
+    - domeinen verbannen
+    - containement
 </details>
 
-### All Affected Endpoints Recovered?
+### Alle Getroffen Eindpunten Hersteld?
 <details open>
 <summary>Expand/Colapse</summary>
 
-If all affected endpoints have been contained, you can go to the next phase, otherwise continue bellow.  
+Als alle getroffen eindpunten zijn contained, kun je naar de volgende fase gaan, anders ga je hieronder verder. 
 
 </details>
 
@@ -373,18 +364,16 @@ If all affected endpoints have been contained, you can go to the next phase, oth
 <details open>
 <summary>Expand/Colapse</summary>
 
-Determine if legitimate elements are blocked by:  
-- Proxy
+Bepaal of legitieme elementen worden geblokkeerd door:
 - Firewall
 - EDR
-
-If so, go back to [Update Defenses](README.md#update-defenses)
-Otherwise go to the next phase <Post Incident>
+Als dat zo is, ga dan terug naar [Update Defenses](README.md#update-defenses)
+Anders ga je naar de volgende fase <Post Incident>
 
 </details>
 </details>
 
-## 6. Post Incident
+## 6. Na Incident
 <details>
 <summary>Expand/Colapse</summary>
 
@@ -400,59 +389,49 @@ Otherwise go to the next phase <Post Incident>
 <details open>
 <summary>Expand/Colapse</summary>
 
-- What worked
-- What didn't work
+- Wat werkte
+- Wat werkte niet
 
 </details>
 
-### Update Mode of Operations
+### Wijziging van Werkwijze
 <details open>
 <summary>Expand/Colapse</summary>
 
-Update the following documents as requiered:  
-- Policies
-- Processes
+Werk de volgende documenten bij indien nodig:
+- Beleid
+- Processen
 - Procedures
 - Playbooks
 - Runbooks
 
-Update Detetion Rules in:  
+Update Detectieregels in:
 - SIEM
 - Anti-Spam
-- Malware Gataway
+- Malware Gateway
 - EDR
-- Other security solution
+- Andere beveiligingsoplossingen
 
 </details>
 
-### Review Defensive Posture
+### Review Defensive Houding
 <details open>
 <summary>Expand/Colapse</summary>
 
-- Schedule review of newly introduced rules in6 months
-- Are the following still applicatble
-    - Firewall Rules
-    - Proxy Rules for C2
-    - AV / EDR custom Signatures
-    - IPS Signatures
+- Plan beoordeling van nieuw geïntroduceerde regels over 6 maanden
+- Zijn de volgende nog steeds van toepassing
+    - Firewall Regels
+    - AV / EDR aangepaste Handtekeningen
+    - IPS Handtekeningen
 
 </details>
 
-### User Awareness Training
+### Gebruikersbewustzijnstraining
 <details open>
 <summary>Expand/Colapse</summary>
 
+- Phished
 
 </details>
 
-</details>
-
-# References
-
-This Playbook was built using the following references:  
-https://www.dfir.training/index.php?option=com_jreviews&format=ajax&url=media/download&m=14tt1&1600804844570  
-https://www.gov.scot/publications/cyber-resilience-incident-management/  
-https://github.com/certsocietegenerale/IRM/tree/master/EN  
-https://www.incidentresponse.com/playbooks/  
-https://ayehu.com/cyber-security-incident-response-automation/top-5-cyber-security-incident-response-playbooks/  
-https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf  
+</details> 
