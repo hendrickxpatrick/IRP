@@ -1,5 +1,4 @@
-# Table of Content
-[[_TOC_]]
+# Inhoudsopgave
 
 # IR Playbooks
 Dit repository bevat alle Incident Response Playbooks en Workflows van het SOC van het bedrijf.
